@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>佐野実咲 - ポートフォリオ</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- 見出し用：Montserrat、本文用：Open Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    /* リセット */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* ナビゲーションバー */
+    nav {
+      background: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 100;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 700;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #2980b9;
+    }
+
+    /* メインコンテンツ */
+    .container {
+      max-width: 900px;
+      margin: 100px auto 40px;
+      padding: 0 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    header h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 3em;
+      font-weight: 700;
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      color: #555;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    section h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2em;
+      color: #2c3e50;
+      border-bottom: 2px solid #2c3e50;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+
+    section h3 {
+      font-size: 1.5em;
+      margin: 20px 0 10px;
+      color: #34495e;
+    }
+
+    ol, ul {
+      margin-left: 20px;
+      margin-bottom: 20px;
+      list-style: disc;
+    }
+
+    li {
+      margin-bottom: 15px;
+    }
+
+    a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .no-underline {
+      text-decoration: none !important;
+      color: inherit;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      font-size: 0.9em;
+      border-top: 1px solid #ddd;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <!-- ナビゲーション -->
+  <nav>
+    <ul>
+      <li><a href="#about">自己紹介</a></li>
+      <li><a href="#research">研究業績</a></li>
+      <li><a href="#activities">活動実績</a></li>
+      <li><a href="#skills">スキルセット</a></li>
+      <li><a href="#works">制作物</a></li>
+    </ul>
+  </nav>
+  
+  <div class="container">
+    <header>
+      <h1>佐野実咲</h1>
+      <p>E-mail：xxxxxxxx</p>
+    </header>
+    
+    <section id="about">
+    <h2>自己紹介</h2>
+    <p>愛知工業大学経営学部経営学科経営情報システム専攻（3年）の佐野実咲と申します．アルバイト先の課題を抽出し効率化するアプリ開発も行っております．フロントエンドエンジニア，バックエンドエンジニア，Webエンジニアを目指しております．</p>
+    </section>
+
+    <section id="research">
+      <h2>研究業績</h2>
+      <h3>査読付き国際会議</h3>
+      <ol>
+        <li>
+          <a href="#" class="no-underline">Sayaka Nishio</a>, Hirofumi Nonaka, Nanami Tsuchiya, Aderu Migita, 
+          Yuya Banno, Hiroki Sakaji, Teruaki Hayashi, Kohei Watabe, Takeshi Sakumoto, <br>
+          “Extraction of Research Objectives, Machine Learning Model Names, and Dataset Names from Academic Papers and Analysis of Their Interrelationships Using LLM and Network Analysis”, <br>
+          2024 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM2024), Bangkok, Thailand, 2024.
+        </li>
+        <li>
+          Tsuchiya Nanami, <a href="#" class="no-underline">Nishio Sayaka</a>, Banno Yuya, Migita Aderu, Nonaka Hirofumi, <br>
+          “Similarity analysis method for Patent Documents using Sentence BERT”, <br>
+          Proceedings of the IIAE International Conference on Intelligent Systems and Image Processing, Matsuyama, Japan, 2024.
+        </li>
+      </ol>
+      
+      <h3>国内学会発表</h3>
+      <ol>
+        <li>
+          <a href="#" class="no-underline">西尾紗也香</a>, データセット/機械学習手法の自動推薦のための大規模言語モデルを利用した論文からの情報抽出, 日本設備管理学会東海支部令和5年度卒業研究発表会, 2024. <span style="color: red;">支部長賞受賞</span>
+        </li>
+	<li>
+	<a href="#" class="no-underline">西尾紗也香</a>, 野中尋史, 早矢仕晃章, 坂地泰紀, 作本猛.  LLM およびネットワーク解析を利用した学術論文からの研究目的・機械学習モデル名・データセット名の抽出と相互の関連性分析. In 人工知能学会全国大会論文集 第 38 回 (2024) (pp. 3Xin2110-3Xin2110). 一般社団法人 人工知能学会, 2024.
+	</li>
+      </ol>
+    </section>
+    
+    <section id="activities">
+      <h2>受賞等</h2>
+      <ul>
+       <li>2022/11 第9回商業高校フードグランプリ大賞</li>
+      </ul>
+    </section>
+    
+    <section id="skills">
+      <h2>スキルセット</h2>
+      <p><strong>言語:</strong> Python, Javascript/React/Next.js, HTML/CSS</p>
+      <p><strong>クラウド:</strong> AWS EC2</p>
+      <p><strong>仮想環境:</strong> Docker</p>
+      <p><strong>コード管理:</strong> Github</p>
+    </section>
+    
+    <section id="works">
+      <h2>制作物</h2>
+      <ul>
+	<li>アルバイトにおけるスケジュール管理アプリ</li>
+      </ul>
+    </section>
+    
+    <footer>
+      <p>&copy; 2025 Sayaka Nishio. All Rights Reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
